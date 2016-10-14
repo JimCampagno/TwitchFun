@@ -12,6 +12,7 @@
 		7D0C498E1DB0872D001B05B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C498C1DB0872D001B05B9 /* Main.storyboard */; };
 		7D0C49901DB0872D001B05B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C498F1DB0872D001B05B9 /* Assets.xcassets */; };
 		7D0C499B1DB0872D001B05B9 /* TwitchTheTatManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C499A1DB0872D001B05B9 /* TwitchTheTatManTests.swift */; };
+		7DA8B00C1DB0890F00046277 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8B00B1DB0890F00046277 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		7D0C49961DB0872D001B05B9 /* TwitchTheTatManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitchTheTatManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0C499A1DB0872D001B05B9 /* TwitchTheTatManTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchTheTatManTests.swift; sourceTree = "<group>"; };
 		7D0C499C1DB0872D001B05B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DA8B00B1DB0890F00046277 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				7D0C498C1DB0872D001B05B9 /* Main.storyboard */,
 				7D0C498F1DB0872D001B05B9 /* Assets.xcassets */,
 				7D0C49911DB0872D001B05B9 /* Info.plist */,
+				7DA8B00B1DB0890F00046277 /* Constants.swift */,
 			);
 			path = TwitchTheTatMan;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				7D0C498B1DB0872D001B05B9 /* ViewController.swift in Sources */,
 				7D0C49891DB0872D001B05B9 /* AppDelegate.swift in Sources */,
+				7DA8B00C1DB0890F00046277 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +404,7 @@
 				7D0C49A11DB0872D001B05B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D0C49A21DB0872D001B05B9 /* Build configuration list for PBXNativeTarget "TwitchTheTatManTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +413,7 @@
 				7D0C49A41DB0872D001B05B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
