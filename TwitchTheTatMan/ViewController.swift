@@ -9,9 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let twitch: Twitch = Twitch()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("View did load.")
+        twitch.getRequest {
+            print("Wuddup")
+        }
     }
 
  
