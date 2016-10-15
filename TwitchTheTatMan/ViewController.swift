@@ -10,18 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let twitch: Twitch = Twitch()
-
+    var twitch: Twitch = Twitch()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("View did load.")
-        twitch.getRequest {
-            print("Wuddup")
-        }
+        
+        // Example of Getting Top Games
+        twitch.get(request: .topGames) { _ in }
+        
+        
+        // Example of Getting Features Games
+        twitch.get(request: .featuredGames) { _ in }
+        
+        // Example of Channel Search
+        let q = ValidTwitchSearch("TimTheTatMan")
+        guard let query = q else { return }
+        twitch.get(request: .searchChannels(query: query)) { _ in }
     }
-
- 
-
-
+    
 }
-

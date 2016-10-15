@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10B74844BDC2EEF297689DCC /* Pods_TwitchTheTatManTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844BA00927B2EA320677BA1C /* Pods_TwitchTheTatManTests.framework */; };
-		1C089046081BD27F35603417 /* Pods_TwitchTheTatMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BD92598C02D639A31CC9EF /* Pods_TwitchTheTatMan.framework */; };
 		7D0C49891DB0872D001B05B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C49881DB0872D001B05B9 /* AppDelegate.swift */; };
 		7D0C498B1DB0872D001B05B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C498A1DB0872D001B05B9 /* ViewController.swift */; };
 		7D0C498E1DB0872D001B05B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C498C1DB0872D001B05B9 /* Main.storyboard */; };
@@ -16,6 +14,7 @@
 		7D0C499B1DB0872D001B05B9 /* TwitchTheTatManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C499A1DB0872D001B05B9 /* TwitchTheTatManTests.swift */; };
 		7DA8B00C1DB0890F00046277 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8B00B1DB0890F00046277 /* Constants.swift */; };
 		7DA8B00E1DB08B5300046277 /* TwitchClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8B00D1DB08B5300046277 /* TwitchClient.swift */; };
+		7DE96D551DB1E1600018794B /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE96D541DB1E1600018794B /* Stream.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D6F7257E2F195D5ABBEDF4C /* Pods-TwitchTheTatMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitchTheTatMan.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitchTheTatMan/Pods-TwitchTheTatMan.release.xcconfig"; sourceTree = "<group>"; };
-		2A05EB86AC125957CA53ED07 /* Pods-TwitchTheTatManTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitchTheTatManTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitchTheTatManTests/Pods-TwitchTheTatManTests.release.xcconfig"; sourceTree = "<group>"; };
-		7988502186D14E07D5DEC359 /* Pods-TwitchTheTatManTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitchTheTatManTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitchTheTatManTests/Pods-TwitchTheTatManTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D0C49851DB0872D001B05B9 /* TwitchTheTatMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitchTheTatMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0C49881DB0872D001B05B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D0C498A1DB0872D001B05B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,9 +39,7 @@
 		7D0C499C1DB0872D001B05B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DA8B00B1DB0890F00046277 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7DA8B00D1DB08B5300046277 /* TwitchClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitchClient.swift; sourceTree = "<group>"; };
-		844BA00927B2EA320677BA1C /* Pods_TwitchTheTatManTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitchTheTatManTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3BD92598C02D639A31CC9EF /* Pods_TwitchTheTatMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitchTheTatMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEC20F0E4F679F37ED6EB9B5 /* Pods-TwitchTheTatMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitchTheTatMan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitchTheTatMan/Pods-TwitchTheTatMan.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE96D541DB1E1600018794B /* Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C089046081BD27F35603417 /* Pods_TwitchTheTatMan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,41 +54,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10B74844BDC2EEF297689DCC /* Pods_TwitchTheTatManTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3408445BB8541514AA62F8EF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BEC20F0E4F679F37ED6EB9B5 /* Pods-TwitchTheTatMan.debug.xcconfig */,
-				0D6F7257E2F195D5ABBEDF4C /* Pods-TwitchTheTatMan.release.xcconfig */,
-				7988502186D14E07D5DEC359 /* Pods-TwitchTheTatManTests.debug.xcconfig */,
-				2A05EB86AC125957CA53ED07 /* Pods-TwitchTheTatManTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		4010D5DF7E973F1B5A5B9F28 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B3BD92598C02D639A31CC9EF /* Pods_TwitchTheTatMan.framework */,
-				844BA00927B2EA320677BA1C /* Pods_TwitchTheTatManTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7D0C497C1DB0872D001B05B9 = {
 			isa = PBXGroup;
 			children = (
 				7D0C49871DB0872D001B05B9 /* TwitchTheTatMan */,
 				7D0C49991DB0872D001B05B9 /* TwitchTheTatManTests */,
 				7D0C49861DB0872D001B05B9 /* Products */,
-				3408445BB8541514AA62F8EF /* Pods */,
-				4010D5DF7E973F1B5A5B9F28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,13 +81,14 @@
 		7D0C49871DB0872D001B05B9 /* TwitchTheTatMan */ = {
 			isa = PBXGroup;
 			children = (
-				7D0C49881DB0872D001B05B9 /* AppDelegate.swift */,
+				7DA8B00B1DB0890F00046277 /* Constants.swift */,
+				7DA8B00D1DB08B5300046277 /* TwitchClient.swift */,
+				7DE96D541DB1E1600018794B /* Stream.swift */,
 				7D0C498A1DB0872D001B05B9 /* ViewController.swift */,
+				7D0C49881DB0872D001B05B9 /* AppDelegate.swift */,
 				7D0C498C1DB0872D001B05B9 /* Main.storyboard */,
 				7D0C498F1DB0872D001B05B9 /* Assets.xcassets */,
 				7D0C49911DB0872D001B05B9 /* Info.plist */,
-				7DA8B00B1DB0890F00046277 /* Constants.swift */,
-				7DA8B00D1DB08B5300046277 /* TwitchClient.swift */,
 			);
 			path = TwitchTheTatMan;
 			sourceTree = "<group>";
@@ -138,12 +109,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D0C499F1DB0872D001B05B9 /* Build configuration list for PBXNativeTarget "TwitchTheTatMan" */;
 			buildPhases = (
-				B2E14A9467F48E909706CC88 /* [CP] Check Pods Manifest.lock */,
 				7D0C49811DB0872D001B05B9 /* Sources */,
 				7D0C49821DB0872D001B05B9 /* Frameworks */,
 				7D0C49831DB0872D001B05B9 /* Resources */,
-				D257A2FBFC9890C6F6E4D7EC /* [CP] Embed Pods Frameworks */,
-				4C0DF1EADF875E5BF860025C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,12 +126,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D0C49A21DB0872D001B05B9 /* Build configuration list for PBXNativeTarget "TwitchTheTatManTests" */;
 			buildPhases = (
-				257BE5BD316B3239D4BA4F73 /* [CP] Check Pods Manifest.lock */,
 				7D0C49921DB0872D001B05B9 /* Sources */,
 				7D0C49931DB0872D001B05B9 /* Frameworks */,
 				7D0C49941DB0872D001B05B9 /* Resources */,
-				E1080C02996BA99CC3933243 /* [CP] Embed Pods Frameworks */,
-				C4B143E79E4967E69E11A0E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,99 +201,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		257BE5BD316B3239D4BA4F73 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		4C0DF1EADF875E5BF860025C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwitchTheTatMan/Pods-TwitchTheTatMan-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B2E14A9467F48E909706CC88 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C4B143E79E4967E69E11A0E1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwitchTheTatManTests/Pods-TwitchTheTatManTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D257A2FBFC9890C6F6E4D7EC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwitchTheTatMan/Pods-TwitchTheTatMan-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E1080C02996BA99CC3933243 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwitchTheTatManTests/Pods-TwitchTheTatManTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		7D0C49811DB0872D001B05B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -338,6 +210,7 @@
 				7D0C49891DB0872D001B05B9 /* AppDelegate.swift in Sources */,
 				7DA8B00C1DB0890F00046277 /* Constants.swift in Sources */,
 				7DA8B00E1DB08B5300046277 /* TwitchClient.swift in Sources */,
+				7DE96D551DB1E1600018794B /* Stream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +337,6 @@
 		};
 		7D0C49A01DB0872D001B05B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEC20F0E4F679F37ED6EB9B5 /* Pods-TwitchTheTatMan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -479,7 +351,6 @@
 		};
 		7D0C49A11DB0872D001B05B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D6F7257E2F195D5ABBEDF4C /* Pods-TwitchTheTatMan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -494,7 +365,6 @@
 		};
 		7D0C49A31DB0872D001B05B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7988502186D14E07D5DEC359 /* Pods-TwitchTheTatManTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,7 +380,6 @@
 		};
 		7D0C49A41DB0872D001B05B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A05EB86AC125957CA53ED07 /* Pods-TwitchTheTatManTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
