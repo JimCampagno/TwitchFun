@@ -10,5 +10,11 @@ import Foundation
 
 
 struct Stream {
-    // TODO: :)
+    
+    var name: String
+    
+    
+    
+    
+    
 }
